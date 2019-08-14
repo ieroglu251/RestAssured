@@ -30,4 +30,9 @@ public class payLoad {
                 "}";
         return b;
     }
+
+    public static byte[] Addbook(String isbn, String aisle) {
+
+return Btyte[];
+    }
 }
