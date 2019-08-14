@@ -1,0 +1,25 @@
+go to "google place search"
+
+My google API key:
+AIzaSyBC2ckTYboBGzRNGA87Bji1JUTdPFrpcLE
+Tools to automate:
+postman, advanced restless client(google ext), soapui, jmeter.
+
+dowload and install postman tool.
+
+log in with google account: ieroglu251@gmail.com
+
+to postman: post: https://maps.googleapis.com/maps/api/place/nearbysearch/json...this first
+
+
+=== use json editor online to get some data...................
+
+
+There type of parameters:
+Path parameter     ............. no ? mark
+Query parameter    ................. with ? mark
+Header parameter
+
+======================================
+Rahuals api"
+http://216.10.245.166/maps/api/place/add/json?key=qaclick123
