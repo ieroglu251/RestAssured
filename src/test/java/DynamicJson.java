@@ -37,24 +37,18 @@ import Files.payLoad;
 public class DynamicJson {
 
 
+    @Test(dataProvider = "BooksData")
 
-    @Test(dataProvider="BooksData")
-
-    public void addBook(String isbn,String aisle)
-
+    public void addBook(String isbn, String aisle) {
 
 
-    {
+        RestAssured.baseURI = "http://216.10.245.166";
 
+        Response resp = given().
 
+                header("Content-Type", "application/json").
 
-        RestAssured.baseURI="http://216.10.245.166";
-
-        Response resp=given().
-
-                header("Content-Type","application/json").
-
-                body(payLoad.Addbook(isbn,aisle)).
+                body(payLoad.getPostData()).
 
                 when().
 
@@ -64,40 +58,39 @@ public class DynamicJson {
 
                 extract().response();
 
-        JsonPath js= ReusableMethods.rawToJson(resp);
+        JsonPath js = ReusableMethods.rawToJson(resp);
 
-        String id=js.get("ID");
+        String id = js.get("ID");
 
         System.out.println(id);
-
 
 
         //deleteBOok
 
     }
 
-    @DataProvider(name="BooksData")
+    @DataProvider(name = "BooksData")
 
-    public Object[][]  getData()
-
-    {
+    public Object[][] getData() {
 
 //array=collection of elements
 
 //multidimensional array= collection of arrays
+        Object [][]list = new Object[3][2];
 
-        return new Object[][] {   ‌{"ojfwty","9363"} ,{"cwetee","4253"}, {"okmfet","533"}    };
+        return list;
 
     }
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+

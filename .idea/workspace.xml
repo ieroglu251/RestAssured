@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b27354f1-d1ce-43f2-bdcc-9d6db3faf9fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/basic6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/Notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DynamicJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DynamicJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Files/payLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Files/payLoad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Rest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Rest4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StaticJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StaticJson.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
